@@ -1,0 +1,86 @@
+.pokemon_card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #88888830;
+    display: flex;
+
+}
+
+.card{
+    margin-bottom: 10px;
+    background-color: rgb(30, 30, 70);
+}
+
+.container{
+    list-style-type: none;
+}
+.li{
+    border: 1px solid #88888830;
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.pad{
+    padding-left: 10px;
+    margin:0;
+}
+
+.otstup{
+    display: flex;
+    border: 1px solid #88888830;
+
+}
+
+.stop{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: 1px solid #88888830;
+
+}
+
+
+
+
+
+/* // .card{
+//     position:fixed;
+//     left:50%;
+// }
+// .box{
+//     border: 3px solid #88888830;
+//     border-radius: 10px;
+//     margin-top:20px;
+// }
+// .top{
+//     display: flex;
+//     justify-content: space-between;
+//     margin:0 10px;
+// }
+// .ol{
+//     list-style-type: none;
+// }
+// .li{
+//     border-top: 3px solid #88888830;
+//     background-color: rgb(29, 30, 61);
+//     padding: 0 10px;
+// }
+// .line{
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .flex{
+//     display: flex;
+//     p{
+//         padding-left:10px;
+//     }
+// }
+// .image{
+//     width: 300px;
+//     height: 300px;
+//     padding:25px 50px;
+// } */
