@@ -1,51 +1,43 @@
-.pokemon_card{
-    width: 300px;
-    height: 300px;
-    border: 1px solid #88888830;
-    display: flex;
-
+.pokemon_card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #88888830;
+  display: flex;
 }
 
-.card{
-    margin-bottom: 10px;
-    background-color: rgb(30, 30, 70);
+.card {
+  margin-bottom: 10px;
+  background-color: rgb(30, 30, 70);
 }
 
-.container{
-    list-style-type: none;
+.container {
+  list-style-type: none;
 }
-.li{
-    border: 1px solid #88888830;
-    
-}
-
-img{
-    width: 250px;
-    height: 250px;
+.li {
+  border: 1px solid #88888830;
 }
 
-.pad{
-    padding-left: 10px;
-    margin:0;
+img {
+  width: 250px;
+  height: 250px;
 }
 
-.otstup{
-    display: flex;
-    border: 1px solid #88888830;
-
+.pad {
+  padding-left: 10px;
+  margin: 0;
 }
 
-.stop{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    border: 1px solid #88888830;
-
+.otstup {
+  display: flex;
+  border: 1px solid #88888830;
 }
 
-
-
-
+.stop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  border: 1px solid #88888830;
+}
 
 /* // .card{
 //     position:fixed;

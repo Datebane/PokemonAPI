@@ -24,7 +24,6 @@ const Home = () => {
     []
   );
 
-  console.log(allPokemon);
   return (
     <>
       <div>

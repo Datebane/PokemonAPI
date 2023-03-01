@@ -4,7 +4,6 @@ import PokemonCard from "../PokemonCard";
 import style from "./../PokemonList/style.css";
 
 function PokemonList({ allPokemon }) {
-
   const [isCard, setCard] = useState([]);
 
   return (
@@ -18,7 +17,7 @@ function PokemonList({ allPokemon }) {
               setCard(pokemon);
             }}
             onMouseLeave={() => {
-              setCard('');
+              setCard("");
             }}
           >
             <div className="pokemon">
@@ -27,7 +26,7 @@ function PokemonList({ allPokemon }) {
                 className="icon"
                 alt=""
               />
-              <p>id: {index + 1}</p>
+              <p>id: {pokemon.id}</p>
             </div>
             <p>{pokemon.name.toUpperCase()}</p>
           </li>
